@@ -1,6 +1,6 @@
 # PhenomDetect: Detection of Air Hazards in the U. S.
 
-This project utilizes a ML algorithms to detect air quality conditions in parts of the United Stated based on satellite data. A Tableau dashboard is included to visualize the predicted Air Quality Index (AQI) in different regions. The visualization tool also includes ancillary data to access the impact of the detection. For interactive visualizations [visit this](https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/AirHazardDetection/StoryofAirHazard?publish=yes) link:
+This project utilizes a ML algorithms to detect air quality conditions in parts of the United Stated based on satellite data. A Tableau dashboard is included to visualize the predicted Air Quality Index (AQI) in different regions. The visualization tool also includes ancillary data to access the impact of the detection. For interactive visualizations [visit this link](https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/AirHazardDetection/StoryofAirHazard?publish=yes).
 
 ![](Figures/dashboard.PNG?raw=true)
 
