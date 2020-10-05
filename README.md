@@ -60,7 +60,7 @@ Before feeding the data to the model, the data was shuffled randomly and splitte
 ![](Figures/impFeatures.PNG?raw=true)
 
 # Visualization Dashboard
-The visualization dahboard presents the following aspects: <br>
+The visualization dashboard presents the following aspects: <br>
 1. The maximum predicted air quality index(AQI) statewise. <br>
 2. The timeseries of the average AQI's collected by the stations under each state (click on a state to see). <br>
 3. Information on population density, forest percentage, COPD patients, number of vehicels affecting AQI. <br>
