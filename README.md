@@ -26,29 +26,32 @@ To develop the machine learning model, we utilized popular python libraries like
 # Data
 The data initially collected from s3://impact-datashare/pm2.5-labeled which has the following features: 
 
-1.station_id: Unique identifier of the PM 2.5 monitors stationed across US <br>
-2.stime: Time and date of sample recorded <br>
-3.air_data_value: EPA air data PM2.5 readings <br>
-4.RH: relative humidity from HRRR <br>
-5.UGRD, VGRD: Wind speed vectors from HRRR <br>
-6.HPBL: Height of Planetary Boundary Layer from HRRR <br>
-7.TMP: Temperature recorded from HRRR <br>
-8.goes_measurement: AOD reading from GOES R <br>
+1. station_id: Unique identifier of the PM 2.5 monitors stationed across US <br>
+2. stime: Time and date of sample recorded <br>
+3. air_data_value: EPA air data PM2.5 readings <br>
+4. RH: relative humidity from HRRR <br>
+5. UGRD, VGRD: Wind speed vectors from HRRR <br>
+6. HPBL: Height of Planetary Boundary Layer from HRRR <br>
+7. TMP: Temperature recorded from HRRR <br>
+8. goes_measurement: AOD reading from GOES R <br>
 
 This data has been integrated with other engineered features for the modeling. The data we used for modeling has the following features:
 
-1.lat: Latitude collected from the location of the station_id <br>
-2.lon: Longitude collected from the location of the station_id <br>
-3.RH: relative humidity from HRRR <br>
-4.HPBL: height of Planetary Boundary Layer from HRRR <br>
-4.RH: relative humidity from HRRR<br>
-5.TMP: temperature recorded from HRRR <br>
-6.goes_measurement: AOD reading from GOES R <br>
-7.wind_direction: engineered from the initial features i.e., UGRD, VGRD<br>
-8.wind_speed: engineered from the initial features i.e., UGRD, VGRD<br>
-9.pop_density: Population density collected from the state of the (latitude, longitude) <br>
-10. forest_perc: Forest Percentage indicating total amount of timberland in different states <br>
-11. copd_heart: Chronic obstructive pulmonary disease (COPD) patients in different states <br> 
+1. lat: Latitude collected from the location of the station_id <br>
+2. lon: Longitude collected from the location of the station_id <br>
+3. RH: relative humidity from HRRR <br>
+4. HPBL: height of Planetary Boundary Layer from HRRR <br>
+5. RH: relative humidity from HRRR<br>
+6. TMP: temperature recorded from HRRR <br>
+7. goes_measurement: AOD reading from GOES R <br>
+8. wind_direction: engineered from the initial features i.e., UGRD, VGRD<br>
+9. wind_speed: engineered from the initial features i.e., UGRD, VGRD<br>
+10. pop_density: Population density collected from the state of the (latitude, longitude) <br>
+11. forest_perc: Forest Percentage indicating total amount of timberland in different states <br>
+12. copd_heart: Chronic obstructive pulmonary disease (COPD) patients in different states <br>
+13. air_data_value: EPA air data PM2.5 readings <br>
+
+Please check the air_data_master.csv file.
 
 # How to run:
 Please check the following files:
