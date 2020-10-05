@@ -62,7 +62,7 @@ Before feeding the data to the model, the data was shuffled randomly and splitte
 # How to run:
 Please check the following files:
 
-1. airqualityPredictionML.ipynb: This notebook includes our data investigation and model generation strategies. We used SVM, Random Forest, Gradient Boost. <br>
+1. airqualityPredictionML.ipynb: This notebook includes our data investigation and model generation strategies (SVM, RF, GB, LR). <br>
 2. airqualityPredictionANN.ipynb: This notebook includes our model genertion using LSTM, MLP. <br>
 3. Air Hazard Detection.twb: This file is the visualization of the best model using Tableau. <br>
 4. DataPreprocessing&FeatureEngineering.ipynb: This notebook includes the feature engineering steps. <br> 
