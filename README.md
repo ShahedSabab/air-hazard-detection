@@ -52,8 +52,8 @@ This data has been integrated with other engineered features for the modeling. T
 13. air_data_value: EPA air data PM2.5 readings <br>
 
 Please check the data directory which includes the following files:
-• air_data_master.csv - This data is used for modeling.<br>
-• air_data_viz_master.csv - This data inccludes the predicted results from the model.<br>
+1. air_data_master.csv - This data is used for modeling.<br>
+2. air_data_viz_master.csv - This data inccludes the predicted results from the model.<br>
 
 # Model Prediction
 Before feeding the data to the model, the data was shuffled randomly and splitted into 70:30 as training and testing. The later 30 percent data were used for testing and the predicted results were visualized using tableau.
