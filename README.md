@@ -8,7 +8,7 @@ https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/AirHazardDetec
 ![](dashboard.PNG?raw=true)
 
 # Motivation:
-Our team took on the challenge of the air hazard detection because we were inspired by the idea of building a tool that could potentially save many lives just by automatically analyzing data from a variety of sources and putting this analysis into the hands of key decision-makers, as well as the general public. 
+This project is a team effort of Team 'Vesper' participated in the [NASA International Space Apps Challenge'20](https://2020.spaceappschallenge.org/challenges/inform/automated-detection-hazards/teams/vesper/project).Our team took on the challenge of the air hazard detection because we were inspired by the idea of building a tool that could potentially save many lives just by automatically analyzing data from a variety of sources and putting this analysis into the hands of key decision-makers, as well as the general public. 
 
 Our approach in solving the problem involved investigating several machine learning models to automate the detection of hazards, building a dashboard to visualize the detections and incorporating ancillary data in an attempt to show the scope and impact of the detected hazards. 
 
