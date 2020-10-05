@@ -2,6 +2,9 @@
 
 This project utilizes a ML algorithms to detect air quality conditions in parts of the United Stated based on satellite data. A Tableau dashboard is included to visualize the predicted Air Quality Index (AQI) in different regions. The visualization tool also includes ancillary data to access the impact of the detection.
 
+For interactive visualizations visit the following link:
+https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/AirHazardDetection/StoryofAirHazard?publish=yes
+
 # Motivation:
 Our team took on this challenge because we were inspired by the idea of building a tool that could potentially save many lives just by automatically analyzing data from a variety of sources and putting this analysis into the hands of key decision-makers, as well as the general public. 
 
