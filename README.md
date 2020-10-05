@@ -5,7 +5,7 @@ This project utilizes a ML algorithms to detect air quality conditions in parts 
 For interactive visualizations visit the following link:
 https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/AirHazardDetection/StoryofAirHazard?publish=yes
 
-![](Data/dashboard.PNG?raw=true)
+![](Figures/dashboard.PNG?raw=true)
 
 # Motivation:
 This project is a team effort of Team 'Vesper' participated in the [NASA International Space Apps Challenge'20](https://2020.spaceappschallenge.org/challenges/inform/automated-detection-hazards/teams/vesper/project). Our team took on the challenge of the automatic air hazard detection because we were inspired by the idea of building a tool that could potentially save many lives just by automatically analyzing data from a variety of sources and putting this analysis into the hands of key decision-makers, as well as the general public. 
@@ -59,8 +59,8 @@ Please check the data directory which includes the following files:
 Before feeding the data to the model, the data was shuffled randomly and splitted into 70:30 as training and testing. The later 30 percent data were used for testing and the predicted results were visualized using tableau.
 
 # Model Performance
-![](Data/performance.PNG?raw=true)
-![](Data/impfeatures.PNG?raw=true)
+![](Figures/performance.PNG?raw=true)
+![](Figures/impFeatures.PNG?raw=true)
 
 # How to run:
 Please check the following files:
