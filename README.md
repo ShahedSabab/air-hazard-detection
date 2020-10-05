@@ -17,7 +17,7 @@ To develop the machine learning model, we utilized popular python libraries like
 • Correraltion heatmap is generated to investigate inter feature correlation.<br>
 • Different models have been built e.g., Linear Regression, SVM, Random Forest, Gradient Boosting Regression, XGBoost Regression, K-Nearest Neighbour, Bidirectional LSTM network, Bidirectional GRU Network, Multilayer Perceptron Network and 1-D Convolutional Network. <br>
 • The highest performance is achieved from Random Forest, R2 = 0.56.<br>
-• A dashboard is created to visualize the best model's predicted air quality index (AQI) in 2019.
+• A dashboard is created to visualize the best model's predicted air quality index (AQI) in 2019. <br>
 • Analyzing the predicted data uncovered factors related to health impacts (e.g., Chronic obstructive pulmonary disease) and environmental issues (e.g., number of vehicles) because of air hazard. 
 
 # Data
